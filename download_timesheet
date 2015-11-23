@@ -1,0 +1,77 @@
+
+<HTML>
+<HEAD>
+<TITLE>Download Timesheet | BGC Volunteer Timesheet</TITLE>
+<meta charset="utf-8" />
+
+<link rel="stylesheet" href="/~speav519/v611/aseira/bgc/960.css" />
+<link rel="stylesheet" href="/~speav519/v611/aseira/bgc/reset.css" />
+<link rel="stylesheet" href="/~speav519/v611/aseira/bgc/text.css" />
+</HEAD>
+
+<BODY>
+<div class="container_12">
+
+<div class="grid_12">
+<br/>
+<a title="BGC Bloomington" href="http://bgcbloomington.com">
+<img src="http://bgcbloomington.com/wp-content/uploads/2015/01/Bloomington-Boys-and-Girls-Club-Large-Logo.png">
+</a></img>
+<br/><h1 class="hdr">
+Volunteer Timesheet </h1>
+
+
+
+<!--a title="BGC Bloomington" href="http://bgcbloomington.com">
+<img class="push_1" src="http://bgcbloomington.com/wp-content/uploads/2015/01/Bloomington-Boys-and-Girls-Club-Large-Logo.png">
+</a></img-->
+
+
+
+<!--div class="push_6">
+<a title="BGC Bloomington" href="http://bgcbloomington.com">
+<img src="http://bgcbloomington.com/wp-content/uploads/2015/01/Bloomington-Boys-and-Girls-Club-Large-Logo.png">
+</a></img>
+</div-->
+
+</div>
+<div class="grid_12">
+<nav><strong><a href="vol_rec_hrs.php">Record Hours</a> | <a href="vol_view_hrs.php">View Timesheet</a> | <a href="vol_download.php">Download Timesheet </a>
+</strong>
+</nav>
+</div>
+
+
+  <h2 class="pg">Download Volunteer Timesheet Data</h2>
+	<p style="font-size:120%"><strong><ins>Step One of Two</ins></strong></p>
+	<p>Download all volunteer timesheet data to save into Access database. 
+	<br/>Please type the date time frames in the boxes below.
+	</p>
+
+<div class="grid_12">
+<FORM ACTION="dwnld_as_text.php" METHOD=POST>
+<!--select_by_date.php old file-->
+<P>Start Date: <input type=text placeholder="MM/DD/YYYY" name="sdate" size=10>
+</p>
+<p>End Date: <input type=text name="endate" placeholder="MM/DD/YYYY" size=11>
+</p>
+<p><input type=submit name="submit" value="Click to create file"></p>
+</FORM>
+<br/>
+	
+</div>
+
+
+
+<div class="grid_12">
+	<br/>
+<p class="ftr">Copyright 2015 - Boys & Girls Club of Bloomington - All Rights Reserved.	</p>
+
+</div>
+
+
+</div>
+
+</BODY>
+</HTML>
+
