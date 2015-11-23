@@ -1,0 +1,65 @@
+
+<HTML>
+<HEAD>
+<TITLE>View Timesheet | BGC Volunteer Timesheet</TITLE>
+<meta charset="utf-8" />
+
+<link rel="stylesheet" href="/~speav519/v611/aseira/bgc/960.css" />
+<link rel="stylesheet" href="/~speav519/v611/aseira/bgc/reset.css" />
+<link rel="stylesheet" href="/~speav519/v611/aseira/bgc/text.css" />
+</HEAD>
+
+<BODY>
+<div class="container_12">
+
+<div class="grid_12">
+<br/>
+<a title="BGC Bloomington" href="http://bgcbloomington.com">
+<img src="http://bgcbloomington.com/wp-content/uploads/2015/01/Bloomington-Boys-and-Girls-Club-Large-Logo.png">
+</a></img>
+<br/><h1 class="hdr">
+Volunteer Timesheet </h1>
+
+
+
+<!--a title="BGC Bloomington" href="http://bgcbloomington.com">
+<img class="push_1" src="http://bgcbloomington.com/wp-content/uploads/2015/01/Bloomington-Boys-and-Girls-Club-Large-Logo.png">
+</a></img-->
+
+
+
+<!--div class="push_6">
+<a title="BGC Bloomington" href="http://bgcbloomington.com">
+<img src="http://bgcbloomington.com/wp-content/uploads/2015/01/Bloomington-Boys-and-Girls-Club-Large-Logo.png">
+</a></img>
+</div-->
+
+</div>
+<div class="grid_12">
+<nav><strong><a href="vol_rec_hrs.php">Record Hours</a> | <a href="vol_view_hrs.php">View Timesheet</a> | <a href="vol_download.php">Download Timesheet </a>
+</strong>
+</nav>
+</div>
+
+
+  <h2 class="pg">View Saved Timesheet</h2>
+	<p>Enter your Volunteer ID number in the box below to view your timesheet.</p>
+<div class="grid_12">
+	<FORM ACTION="vol_view_results.php" METHOD=POST>
+	<p>Volunteer ID: <input type=text name="vol_ID" size=5>
+	</p>
+	<p><input type=submit name="submit" value="View Timesheet"></p>
+	</FORM>
+
+</div>
+
+<div class="grid_12">
+	<br/>
+<p class="ftr">Copyright 2015 - Boys & Girls Club of Bloomington - All Rights Reserved.	</p>
+
+</div>
+
+</div>
+
+</BODY>
+</HTML>
