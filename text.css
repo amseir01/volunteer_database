@@ -1,0 +1,142 @@
+/*
+  960 Grid System ~ Text CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+  font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+
+pre,
+code {
+  font-family: "DejaVu Sans Mono", Menlo, Consolas, monospace;
+}
+
+hr {
+  border: 0 solid #ccc;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+
+nav {
+	background-color: #3399FF;
+	padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+
+h1.hdr {
+  font-size: 27px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+h2.pg {
+  font-size: 23px;
+     margin-left: 20px;
+}
+
+h3.pg {
+  font-size: 21px;
+ margin-left: 20px;
+}
+
+h4.pg {
+  font-size: 19px;
+  margin-left: 20px;
+}
+
+#hpush {
+	font-size: 19px;
+  margin-left: 20px;
+
+}
+
+
+h5 {
+  font-size: 17px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc;
+}
+
+li {
+  margin-left: 30px;
+}
+
+p{
+  margin-bottom: 20px;
+   margin-left: 20px;
+}
+
+p.ftr{
+	margin-bottom: 10px;
+	font-size: 10px;
+	margin-left: 10px;
+}
+
+table{
+	margin-left: 10px;
+	margin-bottom: 3px;
+	}
+
+table.view_ts{
+	width: 40%;
+    border: 1px solid #C0C0C0;
+	table-layout: auto;
+}
+
+td.view_ts {
+    border: 1px solid #C0C0C0;
+	padding: 2px 2px 2px 2px;
+}
+
+form.view {
+	width: 30%;
+    	border: 1px solid #C0C0C0;
+	table-layout: auto;
+	padding-top: 5px;
+}
+
+
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+address,
+fieldset,
+figure {
+  margin-bottom: 10px;
+
+  
+}
